@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.g9SscKbbKVjq6uvhKFK3ZwHaE5&pid=Api&P=0&w=259&h=171');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    min-height:100vh;
+    width:100vw;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
+
+
+
+.container{
+    width:550px;
+    height:800px;
+background-color:white;
+overflow:hidden;
+max-width: 100%;
+/* width: calc(100vw - 65vw);  */
+/* height:calc(100vw - 65vw); */
+}
+
+
+
+.header{
+    height:80px;
+    width:100%;
+    background-color:antiquewhite;
+    align-items:center;
+    text-align:center;
+}
+
+.header h2{
+    padding-top:30px;
+    justify-content: center;
+    text-align:center;
+    font-size:24px;
+    text-transform: uppercase;
+    color:black;
+}
+
+.formfield{
+    padding:30px;
+    margin:8px;
+}
+
+.formtag{
+    padding:20px;
+}
+
+.formdesign{
+    position:relative;
+    padding:5px;
+    margin-bottom:30px;
+}
+
+
+.formdesign label{
+    display:inline-block;
+    float:left;
+    font-size:20px;
+}
+
+.formdesign input{
+    width:100%;
+    border-radius:5px;
+    border: 2 px solid black;
+    padding:8px;
+    font-weight:600;
+    font-weight:200;
+}
+
+.formerror{
+    color:red;
+    font-size: 15px;   
+    float:left;
+}
+
+
+
+
+.btn{
+    width:450px;
+    padding:10px 0px;
+    font-size:20px;
+    letter-spacing: 2px;
+    font-weight:400;
+    text-transform: capitalize;
+    border-radius:15px;
+    border-color: 2px solid black;
+}
+.btn:hover{
+    background-color:cadetblue;
+    transition:0.5s;
+    box-shadow:2px  ;
+}
+
+
+
+
+
+
+
+

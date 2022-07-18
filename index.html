@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> kd form </title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header"> <h2> REGISTRATION FORM </h2> </div>
+    
+    <div class="formfield">
+        <form class="formtag" action="example.php" method="post" name="myform"  onsubmit="return validateform()" autocomplete="off">
+
+
+            <!-- //USERNAME FIELD :- -->
+           <div  class="formdesign" id="name">
+            <label> UserName </label>
+            <input type="text" name="fname" class="inputField"  placeholder="Enter Full Name" />
+            <span class="formerror">       </span> 
+           </div>
+
+
+
+
+           <!-- //PHONE FIELD :- -->
+           <div  class="formdesign" id="phone">
+            <label> Phone </label>
+            <input type="number" name="fphone" class="inputField" />
+            <span class="formerror">       </span> 
+           </div>
+
+
+
+
+           <!-- //EMAIL FIELD :- -->
+           <div  class="formdesign" id="email">
+            <label> Email </label>
+            <input type="email" name="femail" class="inputField" />
+            <span class="formerror">       </span> 
+           </div>
+
+
+
+
+   
+           <!-- //PASSWORD FIELD :- -->
+           <div  class="formdesign" id="password">
+            <label> Password </label>
+            <input type="password" name="fpassword" class="inputField" />
+            <span class="formerror">       </span> 
+           </div>
+
+
+
+
+           
+           <!-- // CONFORM PASSWORD FIELD :- -->
+           <div  class="formdesign" id="cpassword">
+            <label>Conform Password </label>
+            <input type="password" name="fcpassword" class="inputField" />
+            <span class="formerror">       </span> 
+           </div>
+
+
+
+
+
+           <!-- //SUBMIT BUTTON -->
+           <div class="formdesign" >
+            <input type="submit" class="btn" id="btn" />
+           </div>
+
+
+
+        </form>
+    </div>
+
+
+</div>
+
+    
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,4 +1,5 @@
 FORM VALIDATION IN JAVA SCRIPT 
+LINK:-https://splendorous-wisp-52763c.netlify.app/
 
 Web forms are used to collect user's information such as name, email address, location, age, 
 and so on. But sometimes users do not enter the expected details. So it is crucial to validate the form data before sending it to the server-side. 
